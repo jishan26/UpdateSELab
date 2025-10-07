@@ -1,0 +1,67 @@
+# === General ===
+*.env
+*.env.* 
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Node / React ===
+node_modules/
+build/
+dist/
+coverage/
+.npm/
+.yarn/
+.pnp.*
+.cache/
+.eslintcache
+
+# React testing
+/coverage
+jest-test-results.json
+
+# Local React environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Python / FastAPI ===
+.venv/
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+pip-log.txt
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# FastAPI specific
+*.sqlite
+instance/
+*.db
+
+# === Docker ===
+docker-compose.override.yml
+*.pid
+
+# === Other ===
+*.bak
+*.tmp
